@@ -1,0 +1,151 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "3a78c911-9b8c-460b-ba3e-fee69a6c612b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "too low\n"
+     ]
+    }
+   ],
+   "source": [
+    "secret = 7\n",
+    "guess = 3\n",
+    "if guess < secret:\n",
+    "    print(\"too low\") \n",
+    "elif guess > secret:\n",
+    "    print(\"too high\")\n",
+    "else:\n",
+    "    print(\"just right\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "4c0362a4-b734-4ece-99f9-aeb0208312b7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Pea\n"
+     ]
+    }
+   ],
+   "source": [
+    "small = True\n",
+    "green = True\n",
+    "if small:\n",
+    "    if green:\n",
+    "        print(\"Pea\")\n",
+    "    else:\n",
+    "        print(\"Cherry\")\n",
+    "else:\n",
+    "    if green:\n",
+    "        print(\"Watermelon\")\n",
+    "    else: \n",
+    "        print(\"Pumpkin\")\n",
+    "        \n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "c42e8e7e-20a1-4197-b92d-4d2e73a8f2c5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "too low\n"
+     ]
+    }
+   ],
+   "source": [
+    "for x in range (3,-1):\n",
+    "    print (x)\n",
+    "guess_me = 7\n",
+    "number = 1\n",
+    "while True:\n",
+    "    if number < guess_me:\n",
+    "        print(\"too low\")\n",
+    "    elif number == guess_me:\n",
+    "        print(\"found it!\")\n",
+    "        break\n",
+    "    else:\n",
+    "        print(\"oops\")\n",
+    "        number + 1\n",
+    "    break"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "7c449328-f97b-4dcb-ba57-63798294449b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "too low\n",
+      "too low\n",
+      "too low\n",
+      "too low\n",
+      "too low\n",
+      "found it!\n"
+     ]
+    }
+   ],
+   "source": [
+    "guess_me = 5\n",
+    "for number in range (10):\n",
+    "    if number < guess_me:\n",
+    "        print(\"too low\")\n",
+    "    elif number == guess_me:\n",
+    "        print(\"found it!\")\n",
+    "        break\n",
+    "    else:\n",
+    "        print(\"oops\")\n",
+    "        break"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "264a9812-03e7-49b3-92a7-696285aaf857",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
